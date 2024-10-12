@@ -13,28 +13,28 @@ body{
 }
 @keyframes back-ground{
     0%{
-        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url( ./Images/myback.jpg);
+        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url( myback.jpg);
         top:0px;
         left: 100%;
     }
     25%{
-        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url(./Images/G10.jpg );
+        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url(G10.jpg );
         top: 0px;
         left: 100%;
     }    
     50%{
         top: 0px;
-        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url(./Images/back8.jpg);
+        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url( back8.jpg);
         left: 100%;
     }
     75%{
-        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url(./Images/pic1.jpg);
+        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url( pic1.jpg);
         left: 100%;
         top: 0px;
     }
     100%{
         left: 400;
-        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url(./Images/back8.jpg);
+        background-image:linear-gradient(rgba(34, 25, 25, 0.4),rgba(0,0,0,0.4)) , url( back8.jpg);
     }
 }
 
@@ -105,14 +105,12 @@ body{
     display: flex;  
 }
 #div2{
-    height: 350px;
-    width: 80%;
     box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    display: flex;  
-
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    display: flex;   
 }
 .first{
     height:300px;
